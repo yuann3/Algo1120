@@ -1,7 +1,8 @@
 # MyAlgo
 
-A repository to store all my algorithms for exercises.
+A repository for storing my algorithm exercises as well as DSA notes.
+
+Starts with the simplest Arrays and works its way up to advanced algorithmic problems such as Knapsack. Each topic has corresponding notes.
+
 
 Language: C++/Python/Java
-
-For Python: They may be less efficient than the implementations in the Python standard library
