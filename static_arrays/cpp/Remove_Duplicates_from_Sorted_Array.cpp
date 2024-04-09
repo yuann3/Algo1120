@@ -12,3 +12,22 @@ int removeDuplicates(int* nums, int numsSize) {
     }
     return indx;
 }
+
+int main() {
+  // Initialize an array with some duplicates
+  int nums[] = {1, 1, 2, 2, 3, 3, 4, 4, 5};
+  int numsSize = sizeof(nums) / sizeof(nums[0]);
+
+  // Call the function to remove duplicates
+  int newSize = removeDuplicates(nums, numsSize);
+
+  // Print the new size and the array without duplicates
+  cout << "New size: " << newSize << endl;
+  cout << "Array without duplicates: ";
+  for (int i = 0; i < newSize; i++) {
+    cout << nums[i] << " ";
+  }
+  cout << endl;
+
+  return 0;
+}
