@@ -3,9 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 .a
-.out
 # C extensions
 *.so
+*.out
+.clangd
 
 # Distribution / packaging
 .Python
