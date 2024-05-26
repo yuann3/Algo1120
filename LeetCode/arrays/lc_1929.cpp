@@ -14,14 +14,14 @@ vector<int> getConcatenation(vector<int>& nums) {
     return ans;
 }
 
-int main() {
-    vector<int> nums = {1, 3, 2, 1};
-    vector<int> ans = getConcatenation(nums);
+// int main() {
+//     vector<int> nums = {1, 3, 2, 1};
+//     vector<int> ans = getConcatenation(nums);
 
-    cout << "array: ";
-    for (int num : ans) {
-        cout << num << " ";
-    }
-    cout << endl;
-    return 0;
-}
+//     cout << "array: ";
+//     for (int num : ans) {
+//         cout << num << " ";
+//     }
+//     cout << endl;
+//     return 0;
+// }

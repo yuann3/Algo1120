@@ -13,10 +13,10 @@ std::string reverse(const std::string& s)
     return reversed_string;
 }
 
-int main()
-{
-    std::string original = "university of newcastle";
-    std::string reversed = reverse(original);
-    std::cout << "Original: " << original << std::endl;
-    std::cout << "Reversed: " << reversed << std::endl;
-}
+// int main()
+// {
+//     std::string original = "university of newcastle";
+//     std::string reversed = reverse(original);
+//     std::cout << "Original: " << original << std::endl;
+//     std::cout << "Reversed: " << reversed << std::endl;
+// }

@@ -34,23 +34,23 @@ public:
     }
 };
 
-// Main function to run the solution
-int main() {
-    Solution solution;
+// // Main function to run the solution
+// int main() {
+//     Solution solution;
 
-    // Example input
-    vector<string> ops;
-    ops.push_back("5");
-    ops.push_back("2");
-    ops.push_back("C");
-    ops.push_back("D");
-    ops.push_back("+");
+//     // Example input
+//     vector<string> ops;
+//     ops.push_back("5");
+//     ops.push_back("2");
+//     ops.push_back("C");
+//     ops.push_back("D");
+//     ops.push_back("+");
     
-    // Calculate result
-    int result = solution.calPoints(ops);
+//     // Calculate result
+//     int result = solution.calPoints(ops);
     
-    // Output result
-    cout << "The total sum of the points is: " << result << endl;
+//     // Output result
+//     cout << "The total sum of the points is: " << result << endl;
 
-    return 0;
-}
+//     return 0;
+// }

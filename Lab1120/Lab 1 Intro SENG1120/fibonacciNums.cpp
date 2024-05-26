@@ -17,10 +17,10 @@ void PrintFibonacciNumbers(int limit) {
     }
 }
 
-int main() {
-    int limit;
-    std::cout << "Enter a number: ";
-    std::cin >> limit;
-    PrintFibonacciNumbers(limit);
-    return 0;
-}
+// int main() {
+//     int limit;
+//     std::cout << "Enter a number: ";
+//     std::cin >> limit;
+//     PrintFibonacciNumbers(limit);
+//     return 0;
+// }
